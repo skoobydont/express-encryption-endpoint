@@ -12,10 +12,11 @@
     "nodemon": "^2.0.15"
   },
   "devDependencies": {
+    "mocha": "^9.2.2",
     "supertest": "^6.2.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha index.spec.js",
     "start": "nodemon index.js"
   },
   "repository": {
