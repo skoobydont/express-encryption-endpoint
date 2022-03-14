@@ -91,3 +91,5 @@ app.post('/v1/user', (req, res) => {
 });
 // Start application listening on defined port
 app.listen(PORT, () => console.log(`port: ${PORT}`));
+
+module.exports = app;
